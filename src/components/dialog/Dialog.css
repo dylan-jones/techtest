@@ -1,0 +1,20 @@
+dialog {
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    background: #ffffffff;
+    box-shadow: 0px 2px 20px 0px #0000004d;
+    border: none;
+}
+
+dialog header {
+    display: flex;
+    justify-content: space-between;
+}
+
+dialog h1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
