@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 import Dialog from './components/dialog/dialog'
+import DialogHeader from './components/dialog/DialogHeader'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,8 +11,8 @@ function App() {
     <>
       <main>
         <Dialog>
-          <h1>Dialog</h1>
-          <p>This is a dialog component.</p>
+          <DialogHeader>This is a test header</DialogHeader>
+          This is some content inside the dialog with no header.
         </Dialog>
       </main>
     </>
